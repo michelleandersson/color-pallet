@@ -1,0 +1,88 @@
+
+.main__container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;    
+}
+
+.box__one {
+    grid-row: 1/ 4;
+    grid-column: 1/ 3;
+    background-color: #ADA7C9;
+}
+
+.box__two {
+    grid-row: 4/ 7;
+    grid-column: 1/ 3;
+    background-color: #D7B9D5;
+}
+
+.box__three {
+    grid-row: 7/ 11;
+    grid-column: 1/3;
+    background-color: #729EA1;
+}
+
+.box__four {
+    grid-row: 1/7;
+    grid-column: 3/5;
+    background-color: #EAC4D5;
+}
+
+.box__five {
+    grid-row: 7/9;
+    grid-column: 3/4;
+    background-color: #93A8AC;
+}
+
+.box__six {
+    grid-row: 9/11;
+    grid-column: 3/4;
+    background-color: #ADA7C9;
+}
+
+.box__seven {
+    grid-row: 7/11;
+    grid-column: 4/6;
+    background-color: #BAD4AA;
+}
+
+.box__eight {
+    grid-row: 1/3;
+    grid-column: 5/7;
+    background-color: #1D3236;
+}
+
+.box__nine {
+    grid-row: 3/5;
+    grid-column: 5/7;
+    background-color: #89B6A5;
+}
+
+.box__ten {
+    grid-row: 5/7;
+    grid-column: 5/7;
+    background-color: #4C3B4D;
+}
+
+.box__eleven {
+    grid-row: 7/11;
+    grid-column: 6/7;
+    background-color: #2F323A;
+}
+
+.main__container--bottom {
+    grid-row: 11/12;
+    grid-column: 1/7;
+    background-color: #9BC1BC;
+    grid-gap: 0px; 
+}
+
+.main__title {
+    font-size: 64px;
+    font-weight: bold;
+    
+}
